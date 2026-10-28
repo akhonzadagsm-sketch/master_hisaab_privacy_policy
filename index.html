@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Master Hisaab</title>
+    <style>
+        :root {
+            --primary: #059669;
+            --primary-dark: #047857;
+            --primary-light: #ecfdf5;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --bg-page: #f8fafc;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+            --accent-blue: #2563eb;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-page);
+            color: var(--text-main);
+            line-height: 1.65;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #059669 0%, #0f172a 100%);
+            color: white;
+            padding: 40px 32px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 15px;
+            opacity: 0.9;
+        }
+
+        .meta-bar {
+            background: #f1f5f9;
+            padding: 12px 32px;
+            font-size: 13px;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .content {
+            padding: 36px 32px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #0f172a;
+            margin-top: 32px;
+            margin-bottom: 14px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--primary-light);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-top: 18px;
+            margin-bottom: 8px;
+        }
+
+        p {
+            margin-bottom: 14px;
+            font-size: 15px;
+            color: #334155;
+        }
+
+        ul {
+            margin: 10px 0 16px 24px;
+            color: #334155;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 14.5px;
+        }
+
+        .highlight-box {
+            background-color: var(--primary-light);
+            border-left: 4px solid var(--primary);
+            padding: 16px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-size: 14px;
+            color: #065f46;
+        }
+
+        .warning-box {
+            background-color: #fef2f2;
+            border-left: 4px solid #ef4444;
+            padding: 16px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-size: 14px;
+            color: #991b1b;
+        }
+
+        .contact-card {
+            background: #f8fafc;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .contact-card a {
+            color: var(--primary);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #f8fafc;
+            border-top: 1px solid var(--border-color);
+            padding: 24px 32px;
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 12px 8px;
+            }
+            header {
+                padding: 28px 20px;
+            }
+            .content {
+                padding: 24px 18px;
+            }
+            .meta-bar {
+                padding: 10px 18px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Master Hisaab (ماسٹر حساب)</h1>
+        <p>Official Privacy Policy &amp; Data Safety Disclosure</p>
+    </header>
+
+    <div class="meta-bar">
+        <span><strong>Effective Date:</strong> October 2026</span>
+        <span><strong>Application:</strong> Master Hisaab v2.0</span>
+        <span><strong>Developer:</strong> Akhonzada Inam</span>
+    </div>
+
+    <div class="content">
+        <h2>1. Introduction</h2>
+        <p>
+            Welcome to <strong>Master Hisaab</strong> (developed by Akhonzada Inam / Akhonzada GSM). We are committed to protecting your financial and personal privacy. This Privacy Policy details how Master Hisaab collects, uses, synchronizes, and safeguards your information when you use our mobile application.
+        </p>
+        <p>
+            Master Hisaab is built with an <strong>offline-first, zero-trust architecture</strong>: your day-to-day bookkeeping, customer ledgers, and transactions are stored locally on your device in a secure SQLite database, and optionally synchronized with your personal Google account.
+        </p>
+
+        <div class="highlight-box">
+            <strong>Key Privacy Guarantee:</strong> We do not sell, rent, monetarily trade, or expose your private financial records, ledger amounts, or customer contact lists to third parties. Your accounting data belongs solely to you.
+        </div>
+
+        <h2>2. Information We Collect</h2>
+
+        <h3>A. Account &amp; Identity Information</h3>
+        <p>When you sign in using Google Sign-In or register a profile, we receive basic authentication details:</p>
+        <ul>
+            <li><strong>Google Profile:</strong> Your Google User ID, Display Name, and Email Address.</li>
+            <li><strong>Shop Profile:</strong> Shop name, owner name, business address, and contact phone number provided by you.</li>
+            <li><strong>Security PIN:</strong> If enabled, an on-device hashed PIN is used exclusively for app lock verification. PINs are never transmitted in clear text.</li>
+        </ul>
+
+        <h3>B. Bookkeeping &amp; Financial Ledger Records</h3>
+        <p>To deliver complete ledger and accounting functionality, the app stores data that you deliberately enter:</p>
+        <ul>
+            <li>Customer and Shopkeeper / Supplier profiles (names, contact numbers, notes).</li>
+            <li>Transaction entries (debit, credit, payment dates, amounts, cash closing figures, profit transfers).</li>
+            <li>Payment channel records (Cash, Easypaisa, JazzCash, Bank accounts, UPI/Cash equivalent logs).</li>
+            <li>Receipt images or shop logos chosen by you from device storage or camera.</li>
+        </ul>
+
+        <h3>C. Device &amp; Advertising Information</h3>
+        <p>In order to provide app stability and serve non-intrusive advertisements:</p>
+        <ul>
+            <li><strong>Google Mobile Ads SDK (AdMob):</strong> Collects diagnostic data, approximate network location, and the Android Advertising ID (<code>AD_ID</code>) in compliance with Google Play Developer Program policies.</li>
+            <li><strong>Device Telemetry:</strong> Device manufacturer, OS version, and anonymous crash logs for performance optimization.</li>
+        </ul>
+
+        <h2>3. How We Use Your Information</h2>
+        <p>We process your data strictly for legitimate operational purposes:</p>
+        <ul>
+            <li>To perform local bookkeeping math, daily balance tracking, and profit calculations.</li>
+            <li>To generate downloadable and shareable PDF invoices, khata statements, and daily cash closing reports.</li>
+            <li>To synchronize your records with Firebase Cloud Firestore so you can access your accounts across authorized devices.</li>
+            <li>To create encrypted backups in your personal Google Drive account under restricted <code>drive.file</code> scope.</li>
+            <li>To display non-intrusive advertisements via Google AdMob outside sensitive transaction input zones.</li>
+        </ul>
+
+        <h2>4. Data Storage and Security</h2>
+        <p>We follow industry best practices to protect your data:</p>
+        <ul>
+            <li><strong>Local Sandbox:</strong> Your primary records are stored locally within the application’s sandboxed Room/SQLite database, inaccessible to other apps installed on the device.</li>
+            <li><strong>Cloud Synchronization:</strong> All cloud synchronization traffic between Master Hisaab and Firebase Firestore is encrypted via Transport Layer Security (TLS/HTTPS). Database security rules restrict access solely to the authenticated owner.</li>
+            <li><strong>Google Drive Backups:</strong> Cloud database backups created by the user are stored directly in your own Google Drive using restricted application file scope (<code>drive.file</code>). Neither our servers nor any other party can access your Google Drive files.</li>
+            <li><strong>No Plaintext PINs:</strong> Your 4-digit security PIN is hashed on-device using cryptographic algorithms before comparison.</li>
+        </ul>
+
+        <h2>5. Advertising Disclosures (Google AdMob)</h2>
+        <p>
+            Master Hisaab uses the official Google Mobile Ads SDK (AdMob) to display advertisements. We enforce strict safety boundaries:
+        </p>
+        <ul>
+            <li><strong>Zero Financial Access:</strong> AdMob has absolutely NO access to your ledger entries, customer lists, transaction amounts, cash balances, or bank information.</li>
+            <li><strong>Protected UI Zones:</strong> Advertisements are never placed near the Add (+) button, inside transaction entry dialogues, within ledger calculations, or on confirmation screens.</li>
+            <li><strong>Google Policy Compliance:</strong> Ad requests respect Android user preferences regarding personalized advertising and the Google Advertising ID.</li>
+        </ul>
+
+        <h2>6. Device Permissions and Why We Need Them</h2>
+        <ul>
+            <li><code>android.permission.INTERNET</code>: Required for Google Sign-In, Firebase Firestore synchronization, Google Drive backups, and AdMob banner delivery.</li>
+            <li><code>android.permission.ACCESS_NETWORK_STATE</code>: Used to detect offline/online states and smoothly manage offline-first sync queues.</li>
+            <li><code>com.google.android.gms.permission.AD_ID</code>: Required on Android 13+ by the Google Mobile Ads SDK for diagnostic telemetry and ad delivery.</li>
+            <li><code>android.permission.CAMERA</code> (Optional): Used solely when you tap to take a photo of a paper receipt or shop bill to attach to a ledger entry. Photos stay on your device.</li>
+            <li><strong>Android Photo Picker:</strong> Used for selecting shop logos and invoice attachments with zero broad storage permission requirements.</li>
+        </ul>
+
+        <h2>7. Data Retention and Your Rights</h2>
+        <p>You have full ownership of your data at all times:</p>
+        <ul>
+            <li><strong>Export:</strong> You can export full PDF reports and ledger histories anytime from within the app.</li>
+            <li><strong>Recycle Bin &amp; Soft Delete:</strong> Deleted entries can be reviewed or permanently emptied from the built-in Recycle Bin.</li>
+            <li><strong>Account Sign-Out:</strong> You can sign out at any time from the Settings screen. Your local data remains preserved on your device.</li>
+            <li><strong>Data Deletion Request:</strong> You can request complete deletion of any cloud-synced profile data by contacting us at our official support email below.</li>
+        </ul>
+
+        <h2>8. Children's Privacy</h2>
+        <p>
+            Master Hisaab is designed for shopkeepers, traders, and small business owners to manage financial accounts. It is not intended for or directed to children under the age of 13. We do not knowingly collect personal information from children.
+        </p>
+
+        <h2>9. Changes to This Privacy Policy</h2>
+        <p>
+            We may update our Privacy Policy periodically to reflect updates to the app or legal obligations. Any updates will be published directly within the app and via this document with a revised effective date.
+        </p>
+
+        <h2>10. Contact Us</h2>
+        <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please reach out to us:</p>
+
+        <div class="contact-card">
+            <p><strong>Developer:</strong> Akhonzada Inam (Akhonzada GSM)</p>
+            <p><strong>Application:</strong> Master Hisaab</p>
+            <p><strong>Support Email:</strong> <a href="mailto:akhonzadagsm@gmail.com">akhonzadagsm@gmail.com</a></p>
+            <p><strong>Location:</strong> Pakistan</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Master Hisaab. All rights reserved. Built by Akhonzada Inam.
+    </footer>
+</div>
+
+</body>
+</html>
